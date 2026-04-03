@@ -1,0 +1,7 @@
+services:
+  clownmart:
+    build: .
+    container_name: clownmart
+    ports:
+      - "8080:80"
+    restart: unless-stopped
